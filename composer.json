@@ -1,0 +1,27 @@
+{
+    "name": "bijondev/Contact",
+    "description": "this will send email to admin from website",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "bijon",
+            "email": "bijon.bairagi@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Bijondev\\Contact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bijondev\\Contact\\ContactServiceProvider"
+            ]
+        }
+    }
+
+}
