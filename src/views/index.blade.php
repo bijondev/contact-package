@@ -37,7 +37,7 @@
 <div class="form-group">
   <label class="col-md-12 control-label" for="Message">Message</label>
   <div class="col-md-12">                     
-    <textarea class="form-control" id="Message" name="message">{{ time() }}Enter your message here....</textarea>
+    <textarea class="form-control" id="Message" name="message"></textarea>
   </div>
 </div>
 
